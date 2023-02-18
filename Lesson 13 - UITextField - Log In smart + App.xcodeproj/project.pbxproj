@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A86E3311299C003F00831947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3310299C003F00831947 /* AppDelegate.swift */; };
+		A86E3313299C003F00831947 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3312299C003F00831947 /* SceneDelegate.swift */; };
+		A86E3315299C003F00831947 /* SigUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3314299C003F00831947 /* SigUpVC.swift */; };
+		A86E3318299C003F00831947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86E3316299C003F00831947 /* Main.storyboard */; };
+		A86E331A299C004100831947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86E3319299C004100831947 /* Assets.xcassets */; };
+		A86E331D299C004100831947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86E331B299C004100831947 /* LaunchScreen.storyboard */; };
+		A86E3328299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3327299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppTests.swift */; };
+		A86E3332299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3331299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITests.swift */; };
+		A86E3334299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3333299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITestsLaunchTests.swift */; };
+		A86E3341299C08B600831947 /* MiniAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E3340299C08B600831947 /* MiniAppVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A86E3324299C004100831947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A86E3305299C003F00831947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86E330C299C003F00831947;
+			remoteInfo = "Lesson 13 - UITextField - Log In smart + App";
+		};
+		A86E332E299C004100831947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A86E3305299C003F00831947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86E330C299C003F00831947;
+			remoteInfo = "Lesson 13 - UITextField - Log In smart + App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A86E330D299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 13 - UITextField - Log In smart + App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86E3310299C003F00831947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A86E3312299C003F00831947 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A86E3314299C003F00831947 /* SigUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigUpVC.swift; sourceTree = "<group>"; };
+		A86E3317299C003F00831947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A86E3319299C004100831947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A86E331C299C004100831947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A86E331E299C004100831947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86E3323299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 13 - UITextField - Log In smart + AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86E3327299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_13___UITextField___Log_In_smart___AppTests.swift"; sourceTree = "<group>"; };
+		A86E332D299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 13 - UITextField - Log In smart + AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86E3331299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_13___UITextField___Log_In_smart___AppUITests.swift"; sourceTree = "<group>"; };
+		A86E3333299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson_13___UITextField___Log_In_smart___AppUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		A86E3340299C08B600831947 /* MiniAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A86E330A299C003F00831947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86E3320299C004100831947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86E332A299C004100831947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A86E3304299C003F00831947 = {
+			isa = PBXGroup;
+			children = (
+				A86E330F299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App */,
+				A86E3326299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests */,
+				A86E3330299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests */,
+				A86E330E299C003F00831947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A86E330E299C003F00831947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A86E330D299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App.app */,
+				A86E3323299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests.xctest */,
+				A86E332D299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A86E330F299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App */ = {
+			isa = PBXGroup;
+			children = (
+				A86E3310299C003F00831947 /* AppDelegate.swift */,
+				A86E3312299C003F00831947 /* SceneDelegate.swift */,
+				A86E3314299C003F00831947 /* SigUpVC.swift */,
+				A86E3340299C08B600831947 /* MiniAppVC.swift */,
+				A86E3316299C003F00831947 /* Main.storyboard */,
+				A86E3319299C004100831947 /* Assets.xcassets */,
+				A86E331B299C004100831947 /* LaunchScreen.storyboard */,
+				A86E331E299C004100831947 /* Info.plist */,
+			);
+			path = "Lesson 13 - UITextField - Log In smart + App";
+			sourceTree = "<group>";
+		};
+		A86E3326299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A86E3327299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppTests.swift */,
+			);
+			path = "Lesson 13 - UITextField - Log In smart + AppTests";
+			sourceTree = "<group>";
+		};
+		A86E3330299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A86E3331299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITests.swift */,
+				A86E3333299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITestsLaunchTests.swift */,
+			);
+			path = "Lesson 13 - UITextField - Log In smart + AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A86E330C299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86E3337299C004100831947 /* Build configuration list for PBXNativeTarget "Lesson 13 - UITextField - Log In smart + App" */;
+			buildPhases = (
+				A86E3309299C003F00831947 /* Sources */,
+				A86E330A299C003F00831947 /* Frameworks */,
+				A86E330B299C003F00831947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 13 - UITextField - Log In smart + App";
+			productName = "Lesson 13 - UITextField - Log In smart + App";
+			productReference = A86E330D299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A86E3322299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86E333A299C004100831947 /* Build configuration list for PBXNativeTarget "Lesson 13 - UITextField - Log In smart + AppTests" */;
+			buildPhases = (
+				A86E331F299C004100831947 /* Sources */,
+				A86E3320299C004100831947 /* Frameworks */,
+				A86E3321299C004100831947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86E3325299C004100831947 /* PBXTargetDependency */,
+			);
+			name = "Lesson 13 - UITextField - Log In smart + AppTests";
+			productName = "Lesson 13 - UITextField - Log In smart + AppTests";
+			productReference = A86E3323299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A86E332C299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86E333D299C004100831947 /* Build configuration list for PBXNativeTarget "Lesson 13 - UITextField - Log In smart + AppUITests" */;
+			buildPhases = (
+				A86E3329299C004100831947 /* Sources */,
+				A86E332A299C004100831947 /* Frameworks */,
+				A86E332B299C004100831947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86E332F299C004100831947 /* PBXTargetDependency */,
+			);
+			name = "Lesson 13 - UITextField - Log In smart + AppUITests";
+			productName = "Lesson 13 - UITextField - Log In smart + AppUITests";
+			productReference = A86E332D299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A86E3305299C003F00831947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A86E330C299C003F00831947 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A86E3322299C004100831947 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A86E330C299C003F00831947;
+					};
+					A86E332C299C004100831947 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A86E330C299C003F00831947;
+					};
+				};
+			};
+			buildConfigurationList = A86E3308299C003F00831947 /* Build configuration list for PBXProject "Lesson 13 - UITextField - Log In smart + App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A86E3304299C003F00831947;
+			productRefGroup = A86E330E299C003F00831947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A86E330C299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App */,
+				A86E3322299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppTests */,
+				A86E332C299C004100831947 /* Lesson 13 - UITextField - Log In smart + AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A86E330B299C003F00831947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86E331D299C004100831947 /* LaunchScreen.storyboard in Resources */,
+				A86E331A299C004100831947 /* Assets.xcassets in Resources */,
+				A86E3318299C003F00831947 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86E3321299C004100831947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86E332B299C004100831947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A86E3309299C003F00831947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86E3315299C003F00831947 /* SigUpVC.swift in Sources */,
+				A86E3341299C08B600831947 /* MiniAppVC.swift in Sources */,
+				A86E3311299C003F00831947 /* AppDelegate.swift in Sources */,
+				A86E3313299C003F00831947 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86E331F299C004100831947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86E3328299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86E3329299C004100831947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86E3334299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITestsLaunchTests.swift in Sources */,
+				A86E3332299C004100831947 /* Lesson_13___UITextField___Log_In_smart___AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A86E3325299C004100831947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A86E330C299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App */;
+			targetProxy = A86E3324299C004100831947 /* PBXContainerItemProxy */;
+		};
+		A86E332F299C004100831947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A86E330C299C003F00831947 /* Lesson 13 - UITextField - Log In smart + App */;
+			targetProxy = A86E332E299C004100831947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A86E3316299C003F00831947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86E3317299C003F00831947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A86E331B299C004100831947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86E331C299C004100831947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A86E3335299C004100831947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A86E3336299C004100831947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A86E3338299C004100831947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 13 - UITextField - Log In smart + App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-13---UITextField---Log-In-smart---App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A86E3339299C004100831947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 13 - UITextField - Log In smart + App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-13---UITextField---Log-In-smart---App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A86E333B299C004100831947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-13---UITextField---Log-In-smart---AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 13 - UITextField - Log In smart + App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 13 - UITextField - Log In smart + App";
+			};
+			name = Debug;
+		};
+		A86E333C299C004100831947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-13---UITextField---Log-In-smart---AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 13 - UITextField - Log In smart + App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 13 - UITextField - Log In smart + App";
+			};
+			name = Release;
+		};
+		A86E333E299C004100831947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-13---UITextField---Log-In-smart---AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 13 - UITextField - Log In smart + App";
+			};
+			name = Debug;
+		};
+		A86E333F299C004100831947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57P42A66UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Lesson-13---UITextField---Log-In-smart---AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 13 - UITextField - Log In smart + App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A86E3308299C003F00831947 /* Build configuration list for PBXProject "Lesson 13 - UITextField - Log In smart + App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86E3335299C004100831947 /* Debug */,
+				A86E3336299C004100831947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86E3337299C004100831947 /* Build configuration list for PBXNativeTarget "Lesson 13 - UITextField - Log In smart + App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86E3338299C004100831947 /* Debug */,
+				A86E3339299C004100831947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86E333A299C004100831947 /* Build configuration list for PBXNativeTarget "Lesson 13 - UITextField - Log In smart + AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86E333B299C004100831947 /* Debug */,
+				A86E333C299C004100831947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86E333D299C004100831947 /* Build configuration list for PBXNativeTarget "Lesson 13 - UITextField - Log In smart + AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86E333E299C004100831947 /* Debug */,
+				A86E333F299C004100831947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A86E3305299C003F00831947 /* Project object */;
+}
